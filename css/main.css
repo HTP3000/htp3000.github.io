@@ -3,8 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Hermetico';
-    src: url("hermetico/Hermetico-Regular.ttf");
+    font-family:'Helvetica';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,8 +21,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Hermetico';
-    src: url("hermetico/Hermetico-Regular.ttf");
+    font-family:'Helvetica';
 }
 p {
     font-family: "Hermetico";
