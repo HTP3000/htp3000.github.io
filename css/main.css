@@ -1,9 +1,9 @@
-body {
+tbody {
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Dante VAL';
+    font-family:'Hermetico';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,7 +21,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Magda';
+    font-family:'Hermetico';
 }
 p {
     font-family: "Hermetico";
