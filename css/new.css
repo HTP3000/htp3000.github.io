@@ -397,86 +397,32 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%; 
 }
 
-@media (max-width: 760px) {
-    body {
-        width: 76%;
-        padding-left: 12%;
-        padding-right: 12%; 
-    }
-    
-    hr,
-    section > p,
-    section > footer,
-    section > table {
-        width: 100%; 
-    }
-    
-    pre > code {
-        width: 97%; 
-    }
-
-    section > ol {
-        width: 90%; 
-    }
-
-    section > ul {
-        width: 90%; 
-    }
-
-    figure {
-        max-width: 90%; 
-    }
-    
-    figcaption,
-    figure.fullwidth figcaption {
-        margin-right: 0%;
-        max-width: none; 
-    }
-    
-    blockquote {
-        margin-left: 1.5em;
-        margin-right: 0em; 
-    }
-
-    blockquote p,
-    blockquote footer {
-        width: 100%; 
-    }
-    
-    label.margin-toggle:not(.sidenote-number) {
-        display: inline; 
-    }
-
-    .sidenote,
-    .marginnote {
-        display: none; 
-    }
-    
-    .margin-toggle:checked + .sidenote,
-    .margin-toggle:checked + .marginnote {
-        display: block;
-        float: left;
-        left: 1rem;
-        clear: both;
-        width: 95%;
-        margin: 1rem 2.5%;
-        vertical-align: baseline;
-        position: relative; 
-    }
-
-    label {
-        cursor: pointer; 
-    }
-
-    div.table-wrapper,
-    table {
-        width: 85%; 
-    }
-    
-    img {
-        width: 100%;
-    } 
+/* da qui
+#somethingorother {
+  width: 800px ;
 }
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #somethingorother {
+    width: 120px ;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #somethingorother {
+    width: 320px ;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  #somethingorother {
+    width: 480px ;
+  }
+}
+
+
+*/a qui
 © 2020 GitHub, Inc.
 Terms
 Privacy
