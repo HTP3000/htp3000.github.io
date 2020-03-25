@@ -230,18 +230,22 @@ figure.fullwidth figcaption {
 /* Links: replicate underline that clears descenders */
 a:link {
   text-decoration: none;
+ color: red;
 }
 
 a:visited {
   text-decoration: none;
+ color: red;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+ color: red;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
+ color: red;
 }
 }
 
