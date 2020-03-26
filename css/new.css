@@ -59,8 +59,8 @@ body {
     width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12.5%;
-    font-family: Hermetico, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    padding-left: 8.5%;
+    font-family: "Hermetico";
     background-color: #fcfcfa;
     color: #111;
     max-width: 1400px;
@@ -113,7 +113,7 @@ p.subtitle {
 }
 
 .numeral {
-    font-family: Hermetico; 
+    font-family: "Hermetico"; 
 }
 
 .danger {
@@ -228,26 +228,25 @@ figure.fullwidth figcaption {
 }
 
 /* Links: replicate underline that clears descenders */
-a:link,
+a:link {
+  text-decoration: none;
+ color: red;
+}
+
 a:visited {
-    color: inherit; 
+  text-decoration: none;
+ color: red;
 }
 
-.no-tufte-underline:link {
-    background: unset;
-    text-shadow: unset;
+a:hover {
+  text-decoration: none;
+ color: red;
 }
 
-a:link, .tufte-underline, .hover-tufte-underline:hover {
-    text-decoration: none;
-    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
-    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
-    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
-    background-position: 0% 93%, 100% 93%, 0% 93%; 
+a:active {
+  text-decoration: none;
+ color: red;
+}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -287,7 +286,7 @@ img {
 
 .sidenote-number:after,
 .sidenote:before {
-    font-family: Hermetico;
+    font-family: "Hermetico";
     position: relative;
     vertical-align: baseline; 
 }
@@ -319,16 +318,16 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; 
+    font-family: "Hermetico"; 
 }
 
 .sans {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: "Hermetico";
     letter-spacing: .03em; 
 }
 
 code, pre > code {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "Hermetico";
     font-size: 1.0rem;
     line-height: 1.42;
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
@@ -398,86 +397,32 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%; 
 }
 
-@media (max-width: 760px) {
-    body {
-        width: 84%;
-        padding-left: 8%;
-        padding-right: 8%; 
-    }
-    
-    hr,
-    section > p,
-    section > footer,
-    section > table {
-        width: 100%; 
-    }
-    
-    pre > code {
-        width: 97%; 
-    }
-
-    section > ol {
-        width: 90%; 
-    }
-
-    section > ul {
-        width: 90%; 
-    }
-
-    figure {
-        max-width: 90%; 
-    }
-    
-    figcaption,
-    figure.fullwidth figcaption {
-        margin-right: 0%;
-        max-width: none; 
-    }
-    
-    blockquote {
-        margin-left: 1.5em;
-        margin-right: 0em; 
-    }
-
-    blockquote p,
-    blockquote footer {
-        width: 100%; 
-    }
-    
-    label.margin-toggle:not(.sidenote-number) {
-        display: inline; 
-    }
-
-    .sidenote,
-    .marginnote {
-        display: none; 
-    }
-    
-    .margin-toggle:checked + .sidenote,
-    .margin-toggle:checked + .marginnote {
-        display: block;
-        float: left;
-        left: 1rem;
-        clear: both;
-        width: 95%;
-        margin: 1rem 2.5%;
-        vertical-align: baseline;
-        position: relative; 
-    }
-
-    label {
-        cursor: pointer; 
-    }
-
-    div.table-wrapper,
-    table {
-        width: 85%; 
-    }
-    
-    img {
-        width: 100%;
-    } 
+/* da qui
+#somethingorother {
+  width: 800px ;
 }
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #somethingorother {
+    width: 120px ;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #somethingorother {
+    width: 320px ;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  #somethingorother {
+    width: 480px ;
+  }
+}
+
+
+*/a qui
 © 2020 GitHub, Inc.
 Terms
 Privacy
