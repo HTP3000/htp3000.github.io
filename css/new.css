@@ -25,8 +25,7 @@ htp3000.github.io/css/tufte.css
 
 @font-face {
     font-family: "Hermetico";
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.eot");
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.eot?#iefix") format("embedded-opentype"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff"), url("hermetico/hermetico-regular/Hermetico-Regular.ttf") format("truetype"), url("hermetico/hermetico-regular/Hermetico-Regular.svg#etbookromanosf") format("svg");
+    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -34,8 +33,7 @@ htp3000.github.io/css/tufte.css
 
 @font-face {
     font-family: "Hermetico";
-    src: url("hermetico/hermetico-italic/Hermetico-Italic.eot");
-    src: url("hermetico/hermetico-italic/Hermetico-Italic.eot?#iefix") format("embedded-opentype"), url("hermetico/hermetico-italic/Hermetico-Italic.woff") format("woff"), url("hermetico/hermetico-italic/Hermetico-Italic.ttf") format("truetype"), url("hermetico/hermetico-italic/Hermetico-Italic.svg#etbookromanosf") format("svg");
+    src: url("hermetico/hermetico-italic/Hermetico-Italic.woff2") format("woff2"), url("hermetico/hermetico-italic/Hermetico-Italic.woff") format("woff");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -43,8 +41,7 @@ htp3000.github.io/css/tufte.css
 
 @font-face {
     font-family: "Hermetico";
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.eot");
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.eot?#iefix") format("embedded-opentype"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff"), url("hermetico/hermetico-regular/Hermetico-Regular.ttf") format("truetype"), url("hermetico/hermetico-regular/Hermetico-Regular.svg#etbookromanosf") format("svg");
+    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -59,7 +56,6 @@ body {
     width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 8.5%;
     font-family: "Hermetico";
     background-color: #fcfcfa;
     color: #111;
