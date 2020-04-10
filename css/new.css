@@ -25,7 +25,7 @@ htp3000.github.io/css/tufte.css
 
 @font-face {
     font-family: "Hermetico";
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2"), url("css/hermetico-regular/Hermetico-Regular.woff") format("woff"); 
+    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff"); 
     font-weight: normal;
     font-style: normal;
     font-display: block;
