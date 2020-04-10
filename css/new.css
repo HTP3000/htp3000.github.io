@@ -37,12 +37,6 @@ htp3000.github.io/css/tufte.css
     font-style: italic;
 }
 
-@font-face {
-  font-family: "Hermetico";
- src: url("hermetico/hermetico-bold/Hermetico-Bold.woff2") format("woff2"), url("hermetico/hermetico-bold/Hermetico-Bold.woff") format("woff"); 
- font-weight: bold;
-  font-style: normal;
-}
 
 
 /* Tufte CSS styles */
