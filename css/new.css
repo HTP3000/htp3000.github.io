@@ -129,7 +129,7 @@ section {
 
 p,
 ol,
-ul {
+ul {font-family: "Hermetico";
     font-size: 1.4rem;
     line-height: 2rem; 
 }
