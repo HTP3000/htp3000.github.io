@@ -25,16 +25,23 @@ htp3000.github.io/css/tufte.css
 
 @font-face {
     font-family: "Hermetico";
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff");
-    font-weight: normal;
     font-style: normal;
-}
+    font-weight: 400;
+    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2");
+ }
 
 @font-face {
     font-family: "Hermetico";
-    src: url("hermetico/hermetico-italic/Hermetico-Italic.woff2") format("woff2"), url("hermetico/hermetico-italic/Hermetico-Italic.woff") format("woff");
-    font-weight: normal;
+    font-style: normal;
+    font-weight: 800;
+    src: url("hermetico/hermetico-bold/Hermetico-Bold.woff2") format("woff2");
+ }
+
+@font-face {
+    font-family: "Hermetico";
     font-style: italic;
+    font-weight: 400;
+    src: url("hermetico/hermetico-italic/Hermetico-Italic.woff2") format("woff2");
 }
 
 
@@ -49,6 +56,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: "Hermetico";
+    strong{
+     font-weight:800
+ }
     background-color: #fcfcfa;
     color: #111;
     max-width: 1400px;
