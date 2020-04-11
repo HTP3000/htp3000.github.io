@@ -23,8 +23,8 @@
 
 @font-face {
     font-family: "et-book";
-    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
-    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    src: url("hermetico/hermetico-bold/Hermetico-Bold.eot");
+    src: url("hermetico/hermetico-bold/Hermetico-Bold.eot?#iefix") format("embedded-opentype"), url("hermetico/hermetico-bold/Hermetico-Bold.woff") format("woff"), url("hermetico/hermetico-bold/Hermetico-Bold.ttf") format("truetype"), url("hermetico/hermetico-bold/Hermetico-Bold.svg#etbookromanosf") format("svg");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
