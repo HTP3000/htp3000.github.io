@@ -217,9 +217,9 @@ figure.fullwidth figcaption {
 }
 
 /* Links: replicate underline that clears descenders */
-a:link,
-a:visited {
-    color: inherit; 
+a:link{
+ text-decoration: none;
+ color: red;
 }
 
 .no-tufte-underline:link {
