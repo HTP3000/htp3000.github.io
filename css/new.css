@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "hermetico";
-    src: url("hermetico/hermetico-italic/Hermetico-Italic.eot") format("woff");
+    src: url("hermetico/hermetico-italic/Hermetico-Italic.woff") format("woff");
     font-weight: normal;
     font-style: italic;
     font-display: block;
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: "hermetico";
-    src: url("hermetico/hermetico-bold/Hermetico-Bold.) format("woff");
+    src: url("hermetico/hermetico-bold/Hermetico-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: block;
@@ -34,6 +34,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
 }
 
 /* Tufte CSS styles */
