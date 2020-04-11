@@ -47,23 +47,6 @@ htp3000.github.io/css/tufte.css
     font-display: block;
 }
 
-@font-face {
-<<<<<<< HEAD
-    font-family: "Hermetico";
-    src: url("hermetico/hermetico-regular/Hermetico-Regular.woff2") format("woff2"), url("hermetico/hermetico-regular/Hermetico-Regular.woff") format("woff");
-=======
-    font-family: "Hermetico-due";
-    src: url("hermetico/hermetico-bold/Hermetico-Bold.ttf") format("ttf");
->>>>>>> ffee9e967d4cd27350d335981d8334b74c3aef0e
-    font-weight: bold;
-    font-style: normal;
-    font-display: block;
-}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> ffee9e967d4cd27350d335981d8334b74c3aef0e
 
 /* Tufte CSS styles */
 html {
